@@ -2,6 +2,7 @@ import { Flex } from "antd";
 import Navbar from "../components/Navbar/Navbar";
 import Typography from "antd/es/typography/Typography";
 import Footer from "../components/Footer/Footer";
+import { Link } from "react-router-dom";
 const About = () => {
     return (
       <div>
@@ -16,6 +17,9 @@ const About = () => {
             back, hit play, and let's escape into the soothing sounds of lofi
             together! 🎶✨.
           </p>
+          <Link to="/player">
+            <button className="btn">Get started</button>
+          </Link>
         </div>
         <Footer />
       </div>

@@ -22,6 +22,9 @@
     margin-top: 2rem;
     /* font-stretch:20%; */
 }
+.aboutText button{
+    margin-top: 2rem;
+}
 .aboutText{
     position: absolute;
     top:50%;
