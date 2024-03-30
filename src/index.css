@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Workbench&display=swap');
+:root{
+  --background-color: #111111;
+  --color: #fff;
+  --primary-color: purple;
+  --secondary-color: indigo;
+  --tertiary-color: rgb(68, 68, 68);
+  --font-page: "Workbench", sans-serif;
+  --font-player: "Nanum Brush Script", sans-serif;
+}
+
+
+body{
+  background-color: var(--background-color);
+  color: var(--color);
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+
+.btn{
+  font-family: var(--font-player);
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--color);
+  background-color: var(--background-color);
+  color: var(--color);
+  cursor: pointer;
+  transition: all 0.5s;
+  &:hover{
+    background-color: var(--color);
+    color: var(--background-color);
+  }
+}
+
+

@@ -1,0 +1,46 @@
+
+.hero{
+    font-family: 'Workbench', sans-serif;
+    font-weight: 800;
+    border:none;
+       background: url(https://i.gifer.com/origin/40/40c228ec96a4d10bb5400bb8b2450618.webp)
+   center no-repeat;
+   background-size: cover;
+}
+.hero-name{
+    font-size: 4rem;
+    font-weight: 800;
+    font-stretch: 150%;
+}
+.heroTitle{
+    font-size: 3rem;
+    color: var(--color);
+    text-align: center;
+    position: absolute;
+    /* backdrop-filter:blur(5px); */
+    left: 50%;
+    top: 50%;
+    padding: 15rem 0 0 0;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+}
+.hero .hero-content{
+    width: 100%;
+    height: 120vh;
+    object-fit: cover;
+}
+.hero-content p{
+    font-family: var(--font-player);
+}
+
+.hero .btn{
+    background-color: var(--color);
+    font-size: 2rem;
+    color: var(--background-color);
+    max-width: max-content;
+    &:hover{
+        background-color: var(--background-color);
+        color: var(--color);
+    }
+}
