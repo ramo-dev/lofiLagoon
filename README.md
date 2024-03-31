@@ -13,6 +13,7 @@ To get started with LofiLagoon, follow these simple steps:
         git clone https://github.com/lofilagoon/lofilagoon.git
     ```
 ### Installation
+
     ```bash
         cd lofilagoon
         npm install
