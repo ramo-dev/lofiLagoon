@@ -10,28 +10,28 @@ To get started with LofiLagoon, follow these simple steps:
 
 ### Clone the Repository
     ```bash
-            git clone https://github.com/lofilagoon/lofilagoon.git
+        git clone https://github.com/lofilagoon/lofilagoon.git
     ```
 ### Installation
     ```bash
-            cd lofilagoon
-            npm install
+        cd lofilagoon
+        npm install
     ```
 ### Run the Development Server
     ```bash
-            npm run dev
+        npm run dev
     ```
 ### Build and Deploy
 To build and deploy LofiLagoon, follow these steps:
 
 1. Build the project:
     ```bash
-            npm run build
+        npm run build
     ```
 
 2. Deploy the project:
     ```bash
-            npm run deploy
+        npm run deploy
     ```
 
 ### Contributing
@@ -41,17 +41,17 @@ We welcome contributions from the community! If you'd like to contribute to Lofi
 
 2. Create a new branch:
     ```bash
-            git checkout -b feature/your-feature-name
+        git checkout -b feature/your-feature-name
     ```
 
 3. Make your changes and commit them:
     ```bash
-            git commit -m "Add your commit message here"
+        git commit -m "Add your commit message here"
     ```
 
 4. Push your changes to your forked repository:
     ```bash
-            git push origin feature/your-feature-name
+        git push origin feature/your-feature-name
     ```
 
 5. Open a pull request on the main repository.
