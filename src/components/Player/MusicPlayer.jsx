@@ -88,7 +88,7 @@ const MusicPlayer = () => {
               align="flex-end"
               gap="35rem"
             >
-              <Flex vertical>
+              <Flex vertical style={{zIndex : "5"}}>
                 <button
                   className="btn timerSelctor"
                   style={{ whiteSpace: "nowrap" }}
@@ -103,7 +103,7 @@ const MusicPlayer = () => {
                 name="songSelect"
                 id=""
                 onChange={(e) => handleCategoryChange(e.target.value)}
-                className="btn"
+                className="btn songSelect"
               >
                 <option value="chillsong" className="btn">
                   Chill Lofi

@@ -44,3 +44,25 @@
         color: var(--color);
     }
 }
+
+@media screen and (max-width: 786px){
+    
+.hero{
+       background: url(https://i.gifer.com/origin/db/db06c14a3148ef1e0764641c2dc1f347.webp)
+   center no-repeat;
+   background-size: cover;
+}
+.hero-name{
+    font-size: 3.4rem;
+    font-weight: 800;
+    font-stretch: 150%;
+    line-height: 4rem;
+}
+.heroTitle{
+    font-size: 2rem;
+
+}
+.hero .btn{
+    font-size: 1.8rem;
+}
+}
