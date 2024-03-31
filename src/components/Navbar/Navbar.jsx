@@ -19,7 +19,11 @@ const Navbar = () => {
             <Link to="/contact" className="btn">
               <li>Contacts</li>
             </Link>
-            <a href="https://www.github.com/ramo-dev" target="_blank" className="btn">
+            <a
+              href="https://github.com/ramo-dev/lofiLagoon"
+              target="_blank"
+              className="btn"
+            >
               <li>{<GithubFilled />}</li>
             </a>
           </ul>
