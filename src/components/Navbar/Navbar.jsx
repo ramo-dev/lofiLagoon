@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import './NavbarStyles.css';
+import { GithubFilled } from "@ant-design/icons";
 
 const Navbar = () => {
     return (
@@ -18,6 +19,9 @@ const Navbar = () => {
             <Link to="/contact" className="btn">
               <li>Contacts</li>
             </Link>
+            <a href="https://www.github.com/ramo-dev" target="_blank" className="btn">
+              <li>{<GithubFilled />}</li>
+            </a>
           </ul>
         </nav>
       </>

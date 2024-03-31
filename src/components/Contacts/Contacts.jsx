@@ -1,5 +1,6 @@
 import { Flex } from "antd";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer"
 const Contact = () => {
 
     function handleSubmit(e){
@@ -9,12 +10,14 @@ const Contact = () => {
     return (
       <div>
         <Navbar />
-        <form action="" className="contactform" onSubmit={handleSubmit}>
+        <form className="contactform" onSubmit={handleSubmit}>
+          <h1 style={{fontFamily : "var(--font-page)"}}>Want to collaborate? Send a Message.</h1>
             <input type="text" placeholder="Enter Your Name"/>
             <input type="email" placeholder="Enter Your Email"/>
             <textarea type="text" placeholder="Enter Your Message"/>
             <button className="btn">Submit</button>
         </form>
+        <Footer/>
       </div>
     );
 }
